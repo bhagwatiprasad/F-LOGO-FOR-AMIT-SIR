@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            overflow: scroll  ;
+        }
+
+        center {
+            max-width: 400px  ;
+            outline: auto  ;
+            outline-style: auto  ;
+            outline-width: 5px  ;
+            padding: 3%  ;
+            margin-top: 10%  ;
+            margin-right: auto  ;
+            margin-left: auto  ;
+        }
+
+        img {
+            max-width: 400px  ;
+            width: 75%  ;
+            height: auto  ;
+            transform: rotate3d(-107, 139, 60,
+                    53deg)  ;
+            animation-name: example  ;
+            animation-duration: 12s  ;
+            animation-iteration-count: infinite  ;
+            animation-direction: alternate  ;
+        }
+
+        @keyframes example {
+            18% {
+                transform: rotate3d(1, 1, 0,
+                        50deg);
+            }
+
+            20% {
+                transform: rotate3d(0, 1, 0,
+                        30deg);
+            }
+
+            30% {
+                transform: rotate3d(1, 1, 0,
+                        60deg);
+            }
+
+            40% {
+                transform: rotate3d(1, 1, 1,
+                        90deg);
+                width: 96%;
+            }
+
+            60% {
+                transform: rotate3d(0, 1, 1,
+                        90deg);
+            }
+
+            70% {
+                transform: rotate3d(1, 0, 1,
+                        360deg);
+            }
+
+            80% {
+                transform: rotate3d(0, 0, 0,
+                        90deg);
+            }
+
+            90% {
+                transform: rotate3d(0, 0, 0,
+                        90deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+
+        <img id="img1" src="logo1.jkl" alt="">
+        <br>
+        <img id="img2" src="logo2.jkl" alt="">
+    </center>
+</body>
+
+</html>
